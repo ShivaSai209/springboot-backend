@@ -64,6 +64,8 @@ public class EmployeeController {
         employeeRepository.delete(employee);
 
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+
+        // build delete employee Rest API
     }
 }
 
